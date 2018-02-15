@@ -1,0 +1,113 @@
+// NAVIGATION - RESPONSIVE NAVIGATION //
+
+nav {
+    width: 100%;
+    background: $color-white;
+    padding: 0 65px;
+    box-sizing: border-box;
+}
+
+.brand {
+    margin: 0;
+    padding: 5px 10px;
+    float: left;
+    height: 82px;
+    width: auto;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: .5s;
+    height: 82px;
+    background-color: $color-navbar;
+    
+}
+
+nav ul li:hover {
+    background: $color-hover;
+}
+
+nav ul li a {
+    color: $color-white;
+    text-decoration: none;
+}
+
+.responsive-bar {
+    width: 100%;
+    background: $color-white;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.brand-resp {
+    margin: 0;
+    padding: 3px 0;
+    float: left;
+    height: 75px;
+    width: auto;
+}
+
+
+.responsive-bar h4 {
+    margin-top: 20px;
+    padding: 0;
+    color: $color-white;
+    float: right;
+    padding: 5px 10px;
+    background: #3e8e41;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+// LOGO // 
+
+.brand img {
+    height: 100px;
+    width: auto;
+}
+// Navbar - Media query
+
+@media (max-width: 900px)
+{
+    nav {
+        display: none;
+    }
+    
+    .responsive-bar {
+        display: block;
+    }
+    
+    nav h1 {
+        display: block;
+        float: none;
+    }
+    
+    nav ul {
+        float: none;
+    }
+    
+    nav ul li {
+        display: block;
+        text-align: center;
+        background: $color-navbar;
+        padding: 15px 20px;
+        border-bottom: 1px solid rgba(255,255,255,.1)
+    }
+    
+    .brand {
+        display: none; 
+    }
+    
+}

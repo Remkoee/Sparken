@@ -1,0 +1,37 @@
+.galery-main {
+    
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    
+    & img {
+        text-align: center;
+    }
+    
+    & a {
+        text-decoration: none;
+    }
+    
+    & h2 {
+        text-align: center;
+        background: white;
+        border-radius: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+.arrow {
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.heading-galery {
+    text-align: center;
+    background-color: $color-navbar;
+}
+
+.margin-galery img {
+    padding: 4px;
+}

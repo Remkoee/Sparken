@@ -1,0 +1,92 @@
+footer {
+    background-color: $color-footer;
+    padding: 50px;
+    font-size: 70%;
+}
+
+
+
+.footer-nav {
+    list-style: none;
+    float: left;
+    margin-left: -50px;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+ 
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: $color-grey-light-2;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited, {
+    text-decoration: none;
+    border: 0;
+    color: $color-navbar;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+
+.ion-social-facebook:hover {
+    color: $color-facebook;
+}
+
+.ion-social-twitter:hover {
+    color: $color-twitter;
+}
+
+.ion-social-googleplus:hover {
+    color: $color-google;
+}
+
+.ion-social-instagram:hover {
+    color: $color-insta;
+}
+
+
+footer p {
+    color: $color-grey-light-2;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,208 @@
+// COLOR VARIABLES
+
+// BASE COLORS
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #888;
+$color-white: #f8f8f8;
+$color-font-black: #000;
+// THEME COLORS
+$color-navbar: #8ec63f;
+$color-hover: #3e8e41;
+//SECTION COLORS
+$color-about-head: #adff78;
+$color-footer: #333;
+//SUB SECTIONS COLORS
+$color-facebook: #3b5998;
+$color-twitter: #00aced;
+$color-google: #dd4b39;
+$color-insta: #517fa4;
+
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+// BORDER BOX // NO SPACING
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 135%;
+    font-family: $font-primary;
+    color: $color-font-black;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@media (max-width: 650px)
+{
+    body {
+        font-size: 100%
+    }
+}
+
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+// BACKROUND IMAGES
+
+.background {
+    background-image: url(../img/hero.jpg);
+    background-image: linear-gradient(rgba(244, 244, 244, 0.65), rgba(208, 208, 208, 0.65)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.background-secondary {
+    background-image: url(../img/hero.jpg);
+    background-image: linear-gradient(rgba(244, 244, 244, 0.65), rgba(208, 208, 208, 0.65)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    background-attachment: fixed;
+}
+
+.background-galery {
+    background-image: url(../img/hero.jpg);
+    background-image: linear-gradient(rgba(244, 244, 244, 0.65), rgba(208, 208, 208, 0.65)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    background-attachment: fixed;
+}
+
+.background-auto {
+    background-image: url(../img/hero.jpg);
+    background-image: linear-gradient(rgba(244, 244, 244, 0.65), rgba(208, 208, 208, 0.65)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+}
+
+@media (max-width: 900px)
+{
+    .background-galery {
+        height: 400vh;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .background-galery {
+        height: 340vh;
+    }
+}
+
+.background-tertiary {
+    background-image: url(../img/hero.jpg);
+    background-image: linear-gradient(rgba(244, 244, 244, 0.65), rgba(208, 208, 208, 0.65)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350vh;
+    background-attachment: fixed;
+}
+
+
+
+@media (max-width: 845px) 
+{
+    .background-tertiary {
+        height: 465vh;
+    }
+}
+
+@media (max-width: 550px) 
+{
+    .background-tertiary {
+        height: 377.5vh;
+    }
+}
+
+.background-3 {
+    background-image: url(../img/hero.jpg);
+    background-image: linear-gradient(rgba(244, 244, 244, 0.65), rgba(208, 208, 208, 0.65)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bulletpoints {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.articles p {
+    margin-bottom: 15px;
+}
+
+.articles h2 {
+    margin-bottom: 25px;
+}
+
+
+// GOOGLE TRANSLATE // 
+
+
+#google_translate_element {
+    float: right;
+    margin-top: 0;
+    height: 28px;
+    max-width: 130px;
+    overflow: hidden;
+    color: #000000;
+    border-radius: 15px;
+    border: 1.4px solid #fff!important;
+}
+
+
+#google_translate_element span{
+    display: inline-block;
+    width: auto;
+    margin: 3px;
+    color: #ffffff!important;
+    font-weight:700;
+}
+.goog-te-gadget img{
+    margin: 0px;
+    display: none;
+}
+
+.goog-te-banner-frame{
+    display: none!important;
+}
+.goog-te-gadget-simple{
+    background-color: #8ec63f!important;
+    height: 30px;
+    width: 100%;
+    border: none!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+

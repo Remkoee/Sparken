@@ -1,0 +1,57 @@
+img{
+    padding: 5px;
+}
+
+.back{
+    text-decoration: none;
+    font-size: 35px;
+
+    padding-left: 35px;
+}
+fa fa-chevron-left {
+    aria-hidden:true
+}
+
+.nadpis
+{
+    background-color: #8dc63f;
+    border:none;
+    text-align: center;
+    position: relative;
+    color: black;
+    font-size: 50px;
+}
+
+#google_translate_element{
+    margin-top: 70px;
+    margin-right: 60px;
+    right: 0;
+    position: absolute;
+    height: 28px;
+    max-width: 130px;
+    overflow: hidden;
+    color: #000000;
+    border-radius: 15px;
+    border: 1.4px solid #fff!important;
+}
+#google_translate_element span{
+    display: inline-block;
+    width: auto;
+    margin: 3px;
+    color: #ffffff!important;
+    font-weight:700;
+}
+.goog-te-gadget img{
+    margin: 0px;
+    display: none;
+}
+
+.goog-te-banner-frame{
+    display: none!important;
+}
+.goog-te-gadget-simple{
+    background-color: #8ec63f!important;
+    height: 30px;
+    width: 100%;
+    border: none!important;
+}
